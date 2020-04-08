@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3426B3F9AD3EF4F9D840D525 /* Pods_jiugongge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B0FE0571C8B648A486157D /* Pods_jiugongge.framework */; };
+		BD44DB6B7D21B5979D40B74C /* Pods_jiugongge_jiugonggeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908664AA4025105EE52CF469 /* Pods_jiugongge_jiugonggeUITests.framework */; };
 		D7701119243C0B9B00C7D4C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7701118243C0B9B00C7D4C5 /* AppDelegate.m */; };
 		D770111C243C0B9B00C7D4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D770111B243C0B9B00C7D4C5 /* ViewController.m */; };
 		D770111F243C0B9B00C7D4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D770111D243C0B9B00C7D4C5 /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		D7701127243C0B9C00C7D4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7701126243C0B9C00C7D4C5 /* main.m */; };
 		D7701131243C0B9D00C7D4C5 /* jiugonggeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7701130243C0B9D00C7D4C5 /* jiugonggeTests.m */; };
 		D770113C243C0B9D00C7D4C5 /* jiugonggeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D770113B243C0B9D00C7D4C5 /* jiugonggeUITests.m */; };
+		D770114C243C0D4700C7D4C5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D770114B243C0D4700C7D4C5 /* TableViewCell.m */; };
+		D770114F243C5BA600C7D4C5 /* GH_VIw.m in Sources */ = {isa = PBXBuildFile; fileRef = D770114E243C5BA500C7D4C5 /* GH_VIw.m */; };
+		E13DAB8C1230DC08C33A0B8F /* Pods_jiugonggeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DD6B65F3D48360E9039327 /* Pods_jiugonggeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CB2184C1D9D5DB924F84E79 /* Pods-jiugonggeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiugonggeTests.release.xcconfig"; path = "Target Support Files/Pods-jiugonggeTests/Pods-jiugonggeTests.release.xcconfig"; sourceTree = "<group>"; };
+		666635385F8A74F17EE3F6F9 /* Pods-jiugongge-jiugonggeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiugongge-jiugonggeUITests.debug.xcconfig"; path = "Target Support Files/Pods-jiugongge-jiugonggeUITests/Pods-jiugongge-jiugonggeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD13B59F96D7EBB3F4526D0 /* Pods-jiugongge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiugongge.release.xcconfig"; path = "Target Support Files/Pods-jiugongge/Pods-jiugongge.release.xcconfig"; sourceTree = "<group>"; };
+		88DD6B65F3D48360E9039327 /* Pods_jiugonggeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jiugonggeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908664AA4025105EE52CF469 /* Pods_jiugongge_jiugonggeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jiugongge_jiugonggeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5979A93EBBA6EA3EF3B797F /* Pods-jiugongge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiugongge.debug.xcconfig"; path = "Target Support Files/Pods-jiugongge/Pods-jiugongge.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B0FE0571C8B648A486157D /* Pods_jiugongge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jiugongge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27DF251C324F255E2D546E1 /* Pods-jiugonggeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiugonggeTests.debug.xcconfig"; path = "Target Support Files/Pods-jiugonggeTests/Pods-jiugonggeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7701114243C0B9B00C7D4C5 /* jiugongge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiugongge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7701117243C0B9B00C7D4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7701118243C0B9B00C7D4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,12 @@
 		D7701137243C0B9D00C7D4C5 /* jiugonggeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jiugonggeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D770113B243C0B9D00C7D4C5 /* jiugonggeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jiugonggeUITests.m; sourceTree = "<group>"; };
 		D770113D243C0B9D00C7D4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7701149243C0C0000C7D4C5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D770114A243C0D4700C7D4C5 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		D770114B243C0D4700C7D4C5 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		D770114D243C5BA500C7D4C5 /* GH_VIw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GH_VIw.h; sourceTree = "<group>"; };
+		D770114E243C5BA500C7D4C5 /* GH_VIw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GH_VIw.m; sourceTree = "<group>"; };
+		FEDEC51E013D9D166B073E25 /* Pods-jiugongge-jiugonggeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jiugongge-jiugonggeUITests.release.xcconfig"; path = "Target Support Files/Pods-jiugongge-jiugonggeUITests/Pods-jiugongge-jiugonggeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3426B3F9AD3EF4F9D840D525 /* Pods_jiugongge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13DAB8C1230DC08C33A0B8F /* Pods_jiugonggeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +93,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD44DB6B7D21B5979D40B74C /* Pods_jiugongge_jiugonggeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D149A9B4B8330BCDA3F85493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5979A93EBBA6EA3EF3B797F /* Pods-jiugongge.debug.xcconfig */,
+				7AD13B59F96D7EBB3F4526D0 /* Pods-jiugongge.release.xcconfig */,
+				666635385F8A74F17EE3F6F9 /* Pods-jiugongge-jiugonggeUITests.debug.xcconfig */,
+				FEDEC51E013D9D166B073E25 /* Pods-jiugongge-jiugonggeUITests.release.xcconfig */,
+				D27DF251C324F255E2D546E1 /* Pods-jiugonggeTests.debug.xcconfig */,
+				0CB2184C1D9D5DB924F84E79 /* Pods-jiugonggeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D770110B243C0B9B00C7D4C5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,8 @@
 				D770112F243C0B9D00C7D4C5 /* jiugonggeTests */,
 				D770113A243C0B9D00C7D4C5 /* jiugonggeUITests */,
 				D7701115243C0B9B00C7D4C5 /* Products */,
+				D149A9B4B8330BCDA3F85493 /* Pods */,
+				F2CCBA3AFE78674AB5A8BE2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +142,11 @@
 				D7701118243C0B9B00C7D4C5 /* AppDelegate.m */,
 				D770111A243C0B9B00C7D4C5 /* ViewController.h */,
 				D770111B243C0B9B00C7D4C5 /* ViewController.m */,
+				D770114A243C0D4700C7D4C5 /* TableViewCell.h */,
+				D770114B243C0D4700C7D4C5 /* TableViewCell.m */,
+				D770114D243C5BA500C7D4C5 /* GH_VIw.h */,
+				D770114E243C5BA500C7D4C5 /* GH_VIw.m */,
+				D7701149243C0C0000C7D4C5 /* PrefixHeader.pch */,
 				D770111D243C0B9B00C7D4C5 /* Main.storyboard */,
 				D7701120243C0B9C00C7D4C5 /* Assets.xcassets */,
 				D7701122243C0B9C00C7D4C5 /* LaunchScreen.storyboard */,
@@ -132,6 +174,16 @@
 			path = jiugonggeUITests;
 			sourceTree = "<group>";
 		};
+		F2CCBA3AFE78674AB5A8BE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B0FE0571C8B648A486157D /* Pods_jiugongge.framework */,
+				908664AA4025105EE52CF469 /* Pods_jiugongge_jiugonggeUITests.framework */,
+				88DD6B65F3D48360E9039327 /* Pods_jiugonggeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7701140243C0B9D00C7D4C5 /* Build configuration list for PBXNativeTarget "jiugongge" */;
 			buildPhases = (
+				197FF05435BD04C662545902 /* [CP] Check Pods Manifest.lock */,
 				D7701110243C0B9B00C7D4C5 /* Sources */,
 				D7701111243C0B9B00C7D4C5 /* Frameworks */,
 				D7701112243C0B9B00C7D4C5 /* Resources */,
+				C878B06C4EFDA87258A626F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7701143243C0B9D00C7D4C5 /* Build configuration list for PBXNativeTarget "jiugonggeTests" */;
 			buildPhases = (
+				98D301A5BB870555B18E8DDC /* [CP] Check Pods Manifest.lock */,
 				D7701128243C0B9D00C7D4C5 /* Sources */,
 				D7701129243C0B9D00C7D4C5 /* Frameworks */,
 				D770112A243C0B9D00C7D4C5 /* Resources */,
@@ -174,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7701146243C0B9D00C7D4C5 /* Build configuration list for PBXNativeTarget "jiugonggeUITests" */;
 			buildPhases = (
+				82E9F5553DB8B3E53EFF5E8D /* [CP] Check Pods Manifest.lock */,
 				D7701133243C0B9D00C7D4C5 /* Sources */,
 				D7701134243C0B9D00C7D4C5 /* Frameworks */,
 				D7701135243C0B9D00C7D4C5 /* Resources */,
+				3907187D7CE74A7E8D054791 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,12 +314,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		197FF05435BD04C662545902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jiugongge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3907187D7CE74A7E8D054791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jiugongge-jiugonggeUITests/Pods-jiugongge-jiugonggeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jiugongge-jiugonggeUITests/Pods-jiugongge-jiugonggeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jiugongge-jiugonggeUITests/Pods-jiugongge-jiugonggeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82E9F5553DB8B3E53EFF5E8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jiugongge-jiugonggeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D301A5BB870555B18E8DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jiugonggeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C878B06C4EFDA87258A626F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jiugongge/Pods-jiugongge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jiugongge/Pods-jiugongge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jiugongge/Pods-jiugongge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7701110243C0B9B00C7D4C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D770111C243C0B9B00C7D4C5 /* ViewController.m in Sources */,
+				D770114F243C5BA600C7D4C5 /* GH_VIw.m in Sources */,
+				D770114C243C0D4700C7D4C5 /* TableViewCell.m in Sources */,
 				D7701127243C0B9C00C7D4C5 /* main.m in Sources */,
 				D7701119243C0B9B00C7D4C5 /* AppDelegate.m in Sources */,
 			);
@@ -433,9 +595,11 @@
 		};
 		D7701141243C0B9D00C7D4C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5979A93EBBA6EA3EF3B797F /* Pods-jiugongge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = jiugongge/PrefixHeader.pch;
 				INFOPLIST_FILE = jiugongge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +613,11 @@
 		};
 		D7701142243C0B9D00C7D4C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD13B59F96D7EBB3F4526D0 /* Pods-jiugongge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = jiugongge/PrefixHeader.pch;
 				INFOPLIST_FILE = jiugongge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +631,7 @@
 		};
 		D7701144243C0B9D00C7D4C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27DF251C324F255E2D546E1 /* Pods-jiugonggeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +650,7 @@
 		};
 		D7701145243C0B9D00C7D4C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB2184C1D9D5DB924F84E79 /* Pods-jiugonggeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +669,7 @@
 		};
 		D7701147243C0B9D00C7D4C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666635385F8A74F17EE3F6F9 /* Pods-jiugongge-jiugonggeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = jiugonggeUITests/Info.plist;
@@ -518,6 +687,7 @@
 		};
 		D7701148243C0B9D00C7D4C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDEC51E013D9D166B073E25 /* Pods-jiugongge-jiugonggeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = jiugonggeUITests/Info.plist;

@@ -1,0 +1,6 @@
+framework module Pods_jiugongge_jiugonggeUITests {
+  umbrella header "Pods-jiugongge-jiugonggeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
